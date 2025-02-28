@@ -1,0 +1,37 @@
+@import "tailwindcss" ;
+
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+{/*
+@config{
+    const flowbite = require("flowbite-react/tailwind");
+    module.exports = {
+        content: [
+          // ...
+          flowbite.content(),
+        ],
+        plugins: [
+          // ...
+          flowbite.plugin(),
+        ],}
+}*/}
+@layer base{
+    body {
+        overflow: hidden;
+      }
+    h1{
+        @apply text-4xl text-center font-black
+    }
+    h2{
+        @apply text-4xl text-center 
+    }
+    h3{
+            @apply text-3xl text-center font-black    
+    }
+    h4{
+        @apply text-2xl text-center 
+    }
+    h5{
+        @apply text-xl text-center
+    }
+}
