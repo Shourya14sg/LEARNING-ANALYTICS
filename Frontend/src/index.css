@@ -2,19 +2,7 @@
 
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
-{/*
-@config{
-    const flowbite = require("flowbite-react/tailwind");
-    module.exports = {
-        content: [
-          // ...
-          flowbite.content(),
-        ],
-        plugins: [
-          // ...
-          flowbite.plugin(),
-        ],}
-}*/}
+
 @layer base{
     body {
         overflow: hidden;
